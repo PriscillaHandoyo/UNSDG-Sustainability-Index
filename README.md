@@ -12,36 +12,36 @@ This project is all about using computers and smart programs (called machine lea
 
 ## Key Components
 1. **What We Look At (Indicators)**
-We gather facts and numbers from trusted websites like the United Nations and World Bank. These are some of the things we look at:
-- **Education**: Are kids going to school? Can people read and write?
-- **Health**: Are babies healthy? How long do people live?
-- **Environment**: How much pollution is there? Are countries using clean energy?
-- **Money and Poverty**: How rich is a country? How many people are poor?
-- **Gender Equality**: Are girls and women getting the same chances as boys and men?
+    We gather facts and numbers from trusted websites like the United Nations and World Bank. These are some of the things we look at:
+    - **Education**: Are kids going to school? Can people read and write?
+    - **Health**: Are babies healthy? How long do people live?
+    - **Environment**: How much pollution is there? Are countries using clean energy?
+    - **Money and Poverty**: How rich is a country? How many people are poor?
+    - **Gender Equality**: Are girls and women getting the same chances as boys and men?
 
 2. **Cleaning and Preparing the Data**
-Before we use the data, we: 
-- Fill in missing information (or remove it if it’s not helpful).
-- Make sure all the numbers are in the same format.
-- Check that the data matches the right country and year.
+    Before we use the data, we: 
+    - Fill in missing information (or remove it if it’s not helpful).
+    - Make sure all the numbers are in the same format.
+    - Check that the data matches the right country and year.
 
 3. **Creating the Sustainability Score**
-We can make the score in two ways:
-- **Weighted Formula**: We give more importance to some indicators and add them up.
-- **Smart Compression**: We let the computer find the most important patterns using a technique like PCA (Principal Component Analysis).
+    We can make the score in two ways:
+    - **Weighted Formula**: We give more importance to some indicators and add them up.
+    - **Smart Compression**: We let the computer find the most important patterns using a technique like PCA (Principal Component Analysis).
 
 4. **Grouping Countries (Clustering)**
-We use machine learning to group countries that are similar. For example:
-- **High Performers**: Doing great in most areas.
-- **At Risk**: Struggling with big problems.
-- **Emerging Regions**: Improving, but still have work to do.
-We use computer techniques like **K-Means** or **DBSCAN** to do this.
+    We use machine learning to group countries that are similar. For example:
+    - **High Performers**: Doing great in most areas.
+    - **At Risk**: Struggling with big problems.
+    - **Emerging Regions**: Improving, but still have work to do.
+    We use computer techniques like **K-Means** or **DBSCAN** to do this.
 
 5. **Predicting the Future (Optional)**
-If we have data from past years, we can train the computer to **predict** what might happen in the future. Will education improve? Will pollution go down? This helps us prepare for what’s coming.
+    If we have data from past years, we can train the computer to **predict** what might happen in the future. Will education improve? Will pollution go down? This helps us prepare for what’s coming.
 
 6. **Giving Smart Advice**
-Once we understand which countries are doing well and which ones need help, we can give **ideas and advice** to leaders. We also find out **which indicators matter the most** – is health more important than income? Should we focus on education first?
+    Once we understand which countries are doing well and which ones need help, we can give **ideas and advice** to leaders. We also find out **which indicators matter the most** – is health more important than income? Should we focus on education first?
 
 ## Tools We Use
 - **Languages**: Python
